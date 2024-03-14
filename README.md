@@ -1,40 +1,43 @@
-# Article-Generator-from-YouTube-Video
+# ARTICLE GENERATOR APP FROM YOUTUBE VIDEO
 
-This Streamlit app extracts audio from a YouTube video, transcribes it, and generates a news article using OpenAI's GPT-3.5 model.
+This Streamlit application serves to extract audio from a YouTube video, transcribe it, and generate a news article using OpenAI's GPT-3.5 model.
 
 ## Features
 
-- **Input YouTube Video URL**: Enter the URL of the video to analyze.
-- **Start Analysis**: Click to begin the process.
+- **YouTube Video URL Input**: Input the URL of the video you want to analyze.
+- **Start Analysis Checkbox**: Initiates the analysis process.
 - **Audio Playback**: Listen to the extracted audio.
-- **Transcript Extraction**: View the transcribed text.
-- **Generated Article**: Read the article generated from the transcript.
-- **Download Transcript and Article**: Get a zip file with both transcript and article.
+- **Transcript Extraction**: Displays the transcript extracted from the audio.
+- **Generated Article Display**: Presents the generated news article based on the transcript.
+- **Download Functionality**: Offers the ability to download both the transcript and the generated article as a zip file.
 
-## How it Works
+## How to Use
 
-1. **Audio Extraction**: Download audio from the YouTube video.
-2. **Transcription**: Convert audio to text.
-3. **Article Generation**: Use the text to generate a news article.
-4. **Output Download**: Save transcript and article as text files in a zip.
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Set your OpenAI API key in the environment variable `OPENAI_API_KEY`.
+4. Run the `app.py` file using `streamlit run app.py`.
+5. Input the YouTube video URL in the provided field.
+6. Click the "Start Analysis" checkbox to begin the analysis.
+7. Listen to the audio playback if desired.
+8. View the extracted transcript.
+9. Read the generated news article.
+10. Download the transcript and article using the provided download button.
 
-## Dependencies
+## Requirements
 
-- `streamlit`: Web app framework.
-- `pytube`: Download YouTube videos.
-- `whisper`: Audio processing.
-- `openai`: Interact with GPT-3.5.
-- `dotenv`: Manage environment variables.
-- `pathlib`, `shutil`, `zipfile`: File handling.
+- `streamlit`: Web application framework.
+- `openai`: Python library for interacting with OpenAI's API.
+- `pytube`: Library for downloading YouTube videos.
+- `whisper`: Library for working with pre-trained models for audio processing.
+- `python-dotenv`: Library for managing environment variables.
+- `pathlib`, `shutil`, `zipfile`: Python libraries for file manipulation.
 
-## Setup
 
-1. Clone this repo.
-2. Install dependencies: `pip install -r requirements.txt`.
-3. Set your OpenAI API key in the environment: `OPENAI_API_KEY`.
-4. Run the app: `streamlit run app.py`.
-5. Enter YouTube URL and start.
+## Contact Information
 
-## Note
+- **Name**: Saravanan S
+- **Email**: saravanansd634@gmail.com
 
-Ensure correct environment variables and an internet connection.
+
+
